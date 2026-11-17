@@ -1,8 +1,10 @@
-// Oeffentliche Firebase-Web-App-Konfiguration aus der Firebase Console eintragen.
-// Diese Angaben sind keine privaten Service-Account-Schluessel.
+// Oeffentliche Firebase-Web-App-Konfiguration (keine privaten Admin-Schluessel).
+// Zugriffsrechte werden ausschliesslich durch Firebase Authentication und Firestore Rules erteilt.
 window.TRAINING_FIREBASE_CONFIG = {
-  apiKey: "HIER_API_KEY",
-  authDomain: "HIER_AUTH_DOMAIN",
-  projectId: "HIER_PROJECT_ID",
-  appId: "HIER_APP_ID"
+  apiKey: "AIzaSyCgb751D_PJm1x8PMyPpjTeijkDMG2cEac",
+  authDomain: "schwimmtraining-ben.firebaseapp.com",
+  projectId: "schwimmtraining-ben",
+  storageBucket: "schwimmtraining-ben.firebasestorage.app",
+  messagingSenderId: "844205163669",
+  appId: "1:844205163669:web:053caa742ac342abfe879c"
 };
